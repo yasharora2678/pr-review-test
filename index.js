@@ -1,13 +1,15 @@
-const { add, multiply } = require('./src/math');
+const { add, multiply, divide } = require('./src/math');
 const { capitalize } = require('./src/string');
 
 function main() {
     const sum = add(5, 3);
     const product = multiply(4, 2);
+    const division = divide(2 , 0)
     const name = capitalize("yash");
 
     console.log("Sum:", sum);
     console.log("Product:", product);
+    console.log("Divide:", division);
     console.log("Name:", name);
 }
 
